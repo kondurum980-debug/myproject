@@ -1,7 +1,7 @@
 pipeline{
 agent none
 environment {
-  environment = "qa"
+  environment = "dev"
   sonar_url = "https://sonar.opqtech.com"
   jfrog_url = "https://jfrog.opqtech.com"
 }
