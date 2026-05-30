@@ -1,5 +1,5 @@
 pipeline{
-agent none
+agent any
 environment {
   environment = "dev"
   sonar_url = "https://sonar.opqtech.com"
